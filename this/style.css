@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+}
+
+.zone {
+    /*padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+    
+    color:#fff;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.green{
+    background: #669999;
+    }
+.red{
+    background: #C655BE;
+    }
+.yellow{
+    background: #F3AAAA;
+    }
+
+.blue{
+    background: #7abcff;     }
+
+	.sticky{
+		position: sticky;
+		top: 0px;
+	}
+	
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 0.7em;
+	margin: 0px;
+}
+
+.main-nav li{
+	padding: 20px;
+}
+
+
+.push{
+	margin-left: auto;
+}
+
+@media only screen and (max-width: 600px){
+	.main-nav{
+		font-size: 0.5em;
+	}
+}
+
+/*slider*/
+
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 50vh;
+}
+
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img{
+	width: 50%;
+	margin: auto;
+	display: block;
+}
