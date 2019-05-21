@@ -1,0 +1,192 @@
+li
+{
+    list-style-type: none;
+    display: inline;
+}
+.navbox
+{
+background-color: #e8004b24;
+box-shadow: 0px 0px 20px 0px #000000bf;
+}
+.bbox
+{
+    padding: 0% 0% 0% 2%;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: lowercase;
+    color: #777;
+    
+} 
+
+.navbar-nav li a{
+    color:white;
+    text-transform: capitalize;
+}
+.fontcolor
+{
+color:#777;
+
+margin-left: 20px; 
+}
+.fontsize
+{
+font-size: 120px;
+padding: 0% 53% 41% 0%;
+line-height: 111.5px;
+text-align:left; 
+}
+.clock
+{
+    padding: 0% 33% 41% 0%;
+}
+.escape
+{
+    padding: 0% 45% 31% 0%;
+}
+
+.bgcolor
+{
+    background-color: #1b1b1b;
+}
+.boxcolor
+{
+    background-color: #242424;
+   
+}
+.gbox
+{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: lowercase;
+    color: #717171;
+    width: 25%;
+    
+}
+
+
+
+.center
+{
+    text-align: center;
+    color: white
+}
+.graybox
+{
+   width: 42%;
+   box-shadow: 20px 20px 20px 20px #000000bf;
+}
+
+
+.btn-primary
+{
+    background-color: #ff0004;
+    box-shadow: #793839;
+    border-color: #c7070a;
+    border-radius:25px; 
+    width: 130px;
+    height: 40px;    
+    box-shadow: 0px 0px 20px 0px #000000bf;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d3080a;
+    border-color: #c7070a;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d3080a;
+    border-color: #c7070a;
+}
+.whiteToRed
+{
+color: white;
+}
+.whiteToRed:hover
+{
+color: #c7070a;
+}
+.paddingbox
+{
+padding: 3.4% 0% 0% 0%;
+}
+.paddingbox2
+{
+padding: 3.4% 0% 0% 1%;
+}
+.exit
+{
+    background-image: url('../../img/exit.JPG');
+    height:100%;   
+}
+.exitpadding
+{
+    
+    padding: 2% 0% 0% 7%;
+    color:white;
+}
+.exitmargin
+{
+    margin: 8% 0% 0% 17%;
+}
+
+.mapp{
+    width: 100%;
+    height: 80vh;
+    border: 0px;
+    padding-top:0%; 
+    
+    
+ 
+}
+body{
+    margin:0;
+    padding:0;
+    height:1000px;
+  }
+
+  
+  .black ul li{
+    display:inline-block;
+    width:100px;
+    
+
+  }
+  
+  .bacground-walpaper
+  {
+background-image: url("../../img/e.jpg");
+
+width: 100%;
+
+  }
+  .bacground-walpaper2
+  {
+background-image: url("../../img/f.jpg");
+
+width: 100%;
+  }
+
+  .border-3 {
+    border-width:5px !important;
+    background-color: rgb(218, 207, 207);
+
+    border-color: #777777;
+    
+}
+
+.border-4
+{
+   
+   
+   height: 35px;
+   margin: auto;
+   position: relative
+}
+
